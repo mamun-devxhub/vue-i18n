@@ -8,7 +8,6 @@ const i18n = createI18n({
   legacy: true,
   locale: 'bn',
   fallbackLocale: 'en',
-  lazy: true,
   messages: {
     en: {
       welcome: 'Welcome'
