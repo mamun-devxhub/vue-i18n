@@ -1,6 +1,6 @@
 {
   "name": "@mdxh/vue-i18n",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": false,
   "author": "DEVxHUB",
   "description": "Install I18n to vue3 using dxh wrapper",
@@ -20,11 +20,15 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "vue": "^3.0.1"
   },
   "dependencies": {
-    "vue": "^3.4.29"
+    "vue": "^3.4.29",
+    "vue-i18n": "^9.13.1"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
